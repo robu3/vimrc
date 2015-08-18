@@ -1,27 +1,7 @@
-# this repo will exist in the home folder so ignore unrelated directories
-# windows:
-/.config
-/.gem
-/AppData
-/Contacts
-/Desktop
-/Documents
-/Downloads
-/Favorites
-/Links
-/Music
-/Pictures
-/Saved Games
-/Searches
-/Tracing
-/Videos
-/code
-
-.kdiff3rc
-mercurial.ini
-_viminfo
-NTUSER.DAT*
-ntuser.*
+# this repo will exist in the home folder so only include pertinent files, ignoring all others
+*
+!.vimrc
+!.vim/*
 
 # vim swap files
 *.swp
