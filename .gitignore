@@ -1,0 +1,27 @@
+# this repo will exist in the home folder so ignore unrelated directories
+# windows:
+/.config
+/.gem
+/AppData
+/Contacts
+/Desktop
+/Documents
+/Downloads
+/Favorites
+/Links
+/Music
+/Pictures
+/Saved Games
+/Searches
+/Tracing
+/Videos
+/code
+
+.kdiff3rc
+mercurial.ini
+_viminfo
+NTUSER.DAT*
+ntuser.*
+
+# vim swap files
+*.swp
