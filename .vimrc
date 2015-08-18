@@ -22,6 +22,8 @@ set shiftwidth=4
 "colorschemes and display settings
 colorscheme gruvbox
 
+set background=dark
+
 "set OS-specific fonts
 if has("gui_running")
   if has("gui_win32")
